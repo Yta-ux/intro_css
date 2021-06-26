@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body{
+  background: #E9E9E9;
+}
+
+header {
+  background-color: #3485FF;
+  padding: 20px;
+  margin-bottom: 150px;
+}
+
+.title {
+  font-size: 18px;
+  text-align: center;
+  line-height: 2;
+  font-family: "Poppins";
+  padding: 15px;
+  color: #ffff;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
+
+
+.container{
+  width: 400px;
+  height: 200px;
+  background: #fff;
+  padding: 10px;
+  border: 10px solid #2c3e50;
+  margin: 20px;
+}
+
+.element{
+  font-family: 'Poppins';
+  color: #fff;
+  margin: 5px;
+  width: 40px;
+  height: 40px;
+  background: #E67E22;
+  text-align: center;
+}
+
+
+/* FLEXBOX */
+
+/* .container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  flex-flow: row wrap;
+
+  justify-content: center;
+  align-items: center;
+
+  align-content: center;
+} */
+
+/* .element{
+  flex-basis: 100px; 
+  flex-grow: 1;
+  flex-shrink: 1;
+
+  flex: 1 100px;
+} */
+
+/* .element1{
+  align-self: stretch;
+  height: auto;
+} */
