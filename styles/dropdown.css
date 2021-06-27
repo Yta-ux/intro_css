@@ -1,46 +1,62 @@
-.dp-menu ul li a{
-  color: #000;
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background: #e9e9e9;
+}
+
+header {
+  background-color: #3485ff;
+}
+
+.title {
   font-size: 18px;
-  background-color: #fff;
-  border-radius: 8px 8px 0 0;
-  font-family: 'Poppins';
-  padding: 10px;
-  margin-right: 20px;
-  width: 100px;
+  text-align: center;
+  line-height: 2;
+  font-family: "Poppins";
+  padding: 15px;
+  color: #ffff;
 }
 
-.dp-menu ul ul li a{
-  display: block;
-  width: 150px;
-  border-radius: 0;
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+  margin-top: 220px;
+  width: 100vw;
 }
 
-/* MENU */
-.dp-menu ul li{
-  display: inline;
-  position: relative;
+main .dropdown:nth-child(2),
+main .dropdown:nth-child(3) {
+  margin-left: 30px;
 }
 
-.dp-menu ul li a{
+.dropdown-content p {
+  word-break: break-word;
+}
+
+span {
   display: inline-block;
+  background-color: #3485ff;
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px 8px 0 0;
+  color: #ffff;
+  font-weight: 700;
 }
 
-/* SUB-MENU */
-.dp-menu ul .sublist{
-  /* display: none; */
-  position: absolute;
-  width: 100px;
-  left: 0;
-}
-
-.dp-menu ul li:hover .sublist{
+main .dropdown {
   display: block;
-}
-
-/* MENU-SPAN */
-main .dropdown{
   position: relative;
-  display: block;
+  font-family: "Open sans";
+  font-size: 20px;
+  width: 300px;
+  text-align: center;
 }
 
 .dropdown-content{
@@ -51,9 +67,57 @@ main .dropdown{
   font-size: 15px;
   background-color: #f18f01;
   padding: 10px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
 .dropdown:hover .dropdown-content{
   display: block;
 }
+
+.dp-menu ul {
+  background-color: #3485ff;
+  text-align: center;
+}
+
+.dp-menu ul li{
+  display: inline;
+  position: relative;
+}
+
+
+.dp-menu ul li a {
+  display: inline-block;
+  color: #000;
+  font-size: 18px;
+  background-color: #fff;
+  border-radius: 8px 8px 0 0;
+  font-family: "Poppins";
+  padding: 10px;
+  margin-right: 20px;
+  width: 100px;
+}
+
+.dp-menu ul ul{
+  display: none;
+  position: absolute;
+  width: 100px;
+  left: 0;
+}
+
+.dp-menu ul ul li a {
+  display: block;
+  width: 150px;
+  border-radius: 0;
+}
+
+.dp-menu ul li a:hover {
+  background-color: #f18f01;
+  transition: 0.2s;
+}
+
+.dp-menu ul li:hover .sublist{
+  display: block;
+}
+
+
+
