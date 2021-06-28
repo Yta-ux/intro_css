@@ -27,7 +27,7 @@ Para executar o projeto, apenas é preciso clonar ele em seu dispositivo:
 
 - Clone o repositório
     ```bash
-    $ git clone https://github.com/Yta-ux/pomo.fy.git
+    $ git clone https://github.com/Yta-ux/intro_css.git
     ```
 
 ##  📃 Licença
