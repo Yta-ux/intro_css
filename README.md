@@ -8,7 +8,7 @@
 </p>
 
 <h1 style="display: flex; flex-direction: row" align="center">
-    <img width="450" style="border-radius: 10px" height="auto" alt="intro-css" title="Tela Principal" src=".github/home.png"/>
+    <img width="500" style="border-radius: 10px" height="auto" alt="intro-css" title="Tela Principal" src=".github/home.png"/>
 </h1>
 
 ## 🖥 Projeto
@@ -21,7 +21,7 @@ As tecnologias usadas nesse projeto foram:
 
 
 ## 🎥 Vídeo
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TPKP7LbBBL8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[Aula de Flexbox](https://www.youtube.com/embed/TPKP7LbBBL8)
 
 ## 🖇 Executar o Projeto
 Para executar o projeto, apenas é preciso clonar ele em seu dispositivo:
